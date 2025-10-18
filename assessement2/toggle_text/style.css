@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+main {
+    height: 300px;
+    width: 300px;
+    background-color: #777;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+button {
+    background-color: maroon;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

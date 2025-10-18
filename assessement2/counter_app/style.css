@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dadada;
+}
+
+main {
+  background: teal;
+width: 350px;
+height: 200px;
+padding: 16px;
+  border-radius: 20px;
+  
+  text-align: center;
+}
+
+h1{
+    color: #dadada; 
+}
+
+#counter {
+  font-size: 3rem;
+  color: #dadada;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #dadada;
+  color: teal;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
